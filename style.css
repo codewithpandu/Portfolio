@@ -102,6 +102,10 @@ html {
   html {
     font-size: 75%;
   }
+
+  .navbar {
+    padding: 1.4rem 7%;
+  }
 }
 /* For tablet: */
 @media (max-width: 768px) {
