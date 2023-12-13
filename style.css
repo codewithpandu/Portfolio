@@ -9,11 +9,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  max-width: 100mw;
 }
 
 html {
   scroll-behavior: smooth;
+  cursor: url;
 }
 
 .navbar {
@@ -50,9 +50,9 @@ html {
 }
 
 .home {
-  max-width: 100vw;
   margin-top: 5rem;
-  padding: 5rem 7%;
+  padding: 7rem 7%;
+  margin: auto;
 }
 
 .home .row {
@@ -96,6 +96,47 @@ html {
   font-size: 1rem;
 }
 
+.container-about {
+  padding: 3rem 7%;
+  width: 100%;
+  background-color: #1450a3;
+  color: white;
+}
+
+.container-about > .row {
+  display: flex;
+}
+
+.row > .about-content1,
+.about-content2 {
+  flex-basis: 50rem;
+  padding: 1rem 1rem;
+}
+
+.container-footer {
+  background-color: rgb(12, 12, 41);
+  padding: 3rem 0;
+}
+
+.container-footer .copy {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: normal;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.container-footer .icon {
+  text-align: center;
+}
+
+.container-footer .icon > a {
+  padding: 0 0.3rem;
+}
+
+.container-footer .icon > a:hover svg {
+  fill: #1450a3;
+}
 /* responsive */
 /* For laptop: */
 @media (max-width: 1336px) {
@@ -110,7 +151,7 @@ html {
 /* For tablet: */
 @media (max-width: 768px) {
   html {
-    font-size: 63%;
+    font-size: 62.5%;
   }
 
   #menu {
@@ -154,6 +195,15 @@ html {
     display: block;
     font-size: 2rem;
     padding: 1.2rem 3rem;
+  }
+
+  .container-about .row {
+    color: whitesmoke;
+    flex-wrap: wrap;
+  }
+
+  .container-footer .icon > a svg {
+    width: 25px;
   }
 }
 /* For phone: */
