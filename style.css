@@ -177,6 +177,7 @@ html {
   .home .row {
     flex-wrap: wrap-reverse;
     justify-content: center;
+    padding-top: 5rem;
   }
 
   .home .row .content {
