@@ -99,7 +99,7 @@ html {
 
 .home .btn {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   margin-top: 1rem;
   background-color: #1450a3;
   color: white;
@@ -271,6 +271,18 @@ html {
     display: block;
     font-size: 2rem;
     padding: 1.2rem 3rem;
+  }
+
+  .home .btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    background-color: #1450a3;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: 1s;
   }
 
   .container-about .row {

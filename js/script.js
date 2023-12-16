@@ -6,6 +6,3 @@ const navbarNav = document.querySelector(".navbar-nav");
 document.querySelector("#menu").onclick = () => {
   navbarNav.classList.toggle("active");
 };
-
-// icon
-<script src="https://unpkg.com/feather-icons"></script>;
