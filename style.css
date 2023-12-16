@@ -48,54 +48,54 @@ html {
   display: none;
 }
 
-.beranda {
+.home {
   margin-top: 5rem;
   padding: 7rem 7%;
   height: 100vh;
 }
 
-.beranda .row {
+.home .row {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.beranda .row .content {
+.home .row .content {
   max-width: 40%;
 }
 
-.beranda .content h2 {
+.home .content h2 {
   font-size: 1.5rem;
   line-height: 3.4rem;
   font-weight: 500;
   color: #1450a3;
 }
-.beranda .content span {
+.home .content span {
   font-size: 3rem;
   font-weight: 700;
   line-height: 3rem;
   color: black;
 }
 
-.beranda .content span {
+.home .content span {
   display: block;
 }
 
-.beranda .content h3 {
+.home .content h3 {
   font-size: 1.5rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
 
-.beranda .photo .foto {
+.home .photo .foto {
   border-radius: 50%;
 }
 
-.beranda .content p {
+.home .content p {
   font-size: 1rem;
 }
 
-.beranda .btn {
+.home .btn {
   display: inline-block;
   padding: 1rem 2.5rem;
   margin-top: 1rem;
@@ -106,7 +106,7 @@ html {
   transition: 1s;
 }
 
-.beranda a:hover {
+.home a:hover {
   background-color: rgb(12, 12, 41);
 }
 
@@ -240,23 +240,23 @@ html {
     font-weight: 700;
   }
 
-  .beranda {
+  .home {
     margin-top: 5rem;
-    padding: 12rem 7%;
+    padding: 5rem 7%;
     height: 100vh;
   }
 
-  .beranda .row {
+  .home .row {
     flex-wrap: wrap-reverse;
     justify-content: center;
     padding-top: 5rem;
   }
 
-  .beranda .row .content {
+  .home .row .content {
     max-width: 100%;
   }
 
-  .beranda .photo {
+  .home .photo {
     padding-bottom: 1.7rem;
   }
 
@@ -270,11 +270,11 @@ html {
     padding: 1.2rem 3rem;
   }
 
-  .beranda .btn {
+  .home .btn {
     display: inline-block;
-    padding: 1rem 2.5rem;
-    margin-top: 1.3rem;
-    font-size: 1.3rem;
+    padding: 1.5rem 5rem;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
     background-color: #1450a3;
     color: white;
     border-radius: 0.5rem;
@@ -283,7 +283,6 @@ html {
   }
 
   .container-about .row {
-    color: whitesmoke;
     flex-wrap: wrap;
   }
 
