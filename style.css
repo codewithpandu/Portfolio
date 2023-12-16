@@ -51,8 +51,9 @@ html {
 
 .home {
   margin-top: 5rem;
-  padding: 7rem 7%;
+  padding: 12rem 7%;
   margin: auto;
+  height: 100vh;
 }
 
 .home .row {
@@ -96,6 +97,21 @@ html {
   font-size: 1rem;
 }
 
+.home .btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  background-color: #1450a3;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.home a:hover {
+  background-color: rgb(12, 12, 41);
+}
+
 .container-about {
   padding: 3rem 7%;
   width: 100%;
@@ -103,14 +119,59 @@ html {
   color: white;
 }
 
+.container-about > h1 {
+  font-size: 2rem;
+}
+
+.container-about > .bottom-line {
+  width: 5rem;
+  height: 0.3rem;
+  background-color: rgb(68, 158, 243);
+}
+
 .container-about > .row {
   display: flex;
 }
 
-.row > .about-content1,
+.row .about-content1,
 .about-content2 {
   flex-basis: 50rem;
   padding: 1rem 1rem;
+}
+
+.about-content1 h2,
+.about-content2 h2 {
+  padding-bottom: 1rem;
+}
+
+.about-content1 > p {
+  border-left: 3px solid white;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.about-content1 .pendidikan span {
+  font-size: 1.2rem;
+}
+
+.about-content1 .pendidikan .sejak,
+.jurusan,
+.fakultas {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.about-content1 > p::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  left: -12px;
+  top: -3px;
+  border-radius: 50%;
+  border: 2px solid #1450a3;
+  box-sizing: border-box;
 }
 
 .container-footer {
@@ -137,6 +198,7 @@ html {
 .container-footer .icon > a:hover svg {
   fill: #1450a3;
 }
+
 /* responsive */
 /* For laptop: */
 @media (max-width: 1336px) {
@@ -164,6 +226,7 @@ html {
     background-color: white;
     width: 30rem;
     height: 100vh;
+    transition: 1s;
   }
 
   .navbar .navbar-nav.active {
@@ -177,6 +240,13 @@ html {
   .navbar .navbar-logo h2 {
     font-size: 2rem;
     font-weight: 700;
+  }
+
+  .home {
+    margin-top: 5rem;
+    padding: 10rem 7%;
+    margin: auto;
+    height: 100vh;
   }
 
   .home .row {
@@ -210,6 +280,19 @@ html {
 
   .container-footer .icon > a svg {
     width: 25px;
+  }
+
+  .about-content1 > p::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    position: absolute;
+    left: -10px;
+    top: -3px;
+    border-radius: 50%;
+    border: 2px solid #1450a3;
+    box-sizing: border-box;
   }
 }
 /* For phone: */
