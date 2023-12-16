@@ -13,7 +13,6 @@ body {
 
 html {
   scroll-behavior: smooth;
-  cursor: url;
 }
 
 .navbar {
@@ -51,8 +50,7 @@ html {
 
 .home {
   margin-top: 5rem;
-  padding: 12rem 7%;
-  margin: auto;
+  padding: 5rem 7%;
   height: 100vh;
 }
 
@@ -245,7 +243,6 @@ html {
   .home {
     margin-top: 5rem;
     padding: 10rem 7%;
-    margin: auto;
     height: 100vh;
   }
 
